@@ -36,10 +36,10 @@ export default function Home() {
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[1]" />
       {/* Background Image  */}
       <Image
-        src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        src="https://images.unsplash.com/photo-1442213391790-7656f6e368b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80"
         layout="fill"
         className="object-cover"
-        alt = "background"
+        alt="background"
       />
 
       {/* Search  */}
@@ -57,6 +57,7 @@ export default function Home() {
             />
           </div>
           <button onClick={fetchWeather}>
+    
             <BsSearch size={20} />
           </button>
         </form>
